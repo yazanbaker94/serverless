@@ -10,6 +10,13 @@ Routes should integrate with the appropriate Lambda function to perform the oper
 
 
 
+/get = gets all items in DB
+/post - creates new table inside DB with the OBJ schema properties
+/delete/{id} = deletes one object per ID
+/put/{id} = updates one object per ID
+
+
+
 AWS API:
 still waiting for login
 
