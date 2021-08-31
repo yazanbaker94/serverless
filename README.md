@@ -10,14 +10,15 @@ Routes should integrate with the appropriate Lambda function to perform the oper
 
 
 
-**[AWS API - still waiting for login]()** 
+AWS API:
+still waiting for login
 
-**[Pull Request]()** 
+PULL REQ:
+https://github.com/yazanbaker94/serverless/pull/1
 
 
----
 
 
 
 ## UML Diagram:
-![]()
+![UML for AWS](Flowchart.png)
