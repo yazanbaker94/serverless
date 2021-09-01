@@ -1,10 +1,10 @@
 const dynamoose=require("dynamoose");
 
-const pepoleSchema=new dynamoose.Schema({
+const peopleSchema=new dynamoose.Schema({
     id:String,
     name:String,
-    age:String,
-    gender:String
+    haircolor:String,
+    lastname:String
 });
 
-module.exports=dynamoose.model('pepole',pepoleSchema);
+module.exports=dynamoose.model('people',peopleSchema);

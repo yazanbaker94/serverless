@@ -1,4 +1,4 @@
-const peopleModel = require("./pepoleSchema");
+const peopleModel = require("./peopleSchema");
 
 exports.handler = async (event) => {
   try {
