@@ -3,9 +3,9 @@ const peopleModel = require("./peopleSchema");
 
 exports.handler = async (event) => {
   try {
-    const { name, age, gender } = JSON.parse(event.body);
+    const { name, haircolor, lastname } = JSON.parse(event.body);
     const id = uuid();
-    const person = new peopleModel({ id, name, age, gender });
+    const person = new peopleModel({ id, name, haircolor, lastname });
 
     const data = await person.save();
     return {

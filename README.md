@@ -18,7 +18,7 @@ Routes should integrate with the appropriate Lambda function to perform the oper
 
 
 AWS API:
-still waiting for login
+https://7oizwvwia8.execute-api.us-east-1.amazonaws.com/people/
 
 PULL REQ:
 https://github.com/yazanbaker94/serverless/pull/1
